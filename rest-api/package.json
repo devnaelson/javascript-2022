@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "name": "rest-api",
+  "description": "Goals of this repo is put all my skills and mount structures, ideia of project about this new frameworks and libraries Javascript.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
