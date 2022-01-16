@@ -1,2 +1,6 @@
-# javascript-2022
-Goals of this repo is put all my skills and mount structures, ideia of project about this new frameworks and libraries Javascript. 
+# Goals
+- 1 Create a rest Api with good practices. 
+- 2 to interact with front in reactJS 
+- 3 to interact with front in VueJS 
+- 4 to interact Database Mysql
+- 5 to interact Mongodb
