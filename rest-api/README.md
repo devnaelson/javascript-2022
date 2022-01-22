@@ -4,3 +4,6 @@
 - 3 to interact with front in VueJS 
 - 4 to interact Database Mysql
 - 5 to interact Mongodb
+
+# Exiped refêrences others Api
+- https://github.com/tobiasalbirosa/registrator
