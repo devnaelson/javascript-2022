@@ -14,13 +14,16 @@ ReactDOM.render(
 ### Introducing JSX
 - This is the first chapter in a step-by-step guide about main React concepts.
 
+### Consider this variable declaration:
+- It is called JSX
+
 ```
-Consider this variable declaration:
-It is called JSX
 const element = <h1>Hello, world!</h1>;
+```
 
-Embedding Expressions in JSX
+### Embedding Expressions in JSX
 
+```
 const name = 'Josh Perez';
 const element = <h1>Hello, {name}</h1>;
 ReactDOM.render(
@@ -46,5 +49,18 @@ const element = (
   </h1>
 );
 
+
+JSX is an Expression Too
+
 ```
 
+### JSX is an Expression Too
+- This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions:
+```
+function getGreeting(user) {
+  if (user) {
+    return <h1>Hello, {formatName(user)}!</h1>;
+  }
+  return <h1>Hello, Stranger.</h1>;
+}
+```
