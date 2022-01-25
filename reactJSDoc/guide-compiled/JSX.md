@@ -57,3 +57,12 @@ function getGreeting(user) {
 ```
 const element = <img src={user.avatarUrl}></img>;
 ```
+
+### JSX Prevents Injection Attacks
+- https://reactjs.org/docs/introducing-jsx.html#jsx-prevents-injection-attacks
+
+```
+const title = response.potentiallyMaliciousInput;
+// This is safe:
+const element = <h1>{title}</h1>;
+```
