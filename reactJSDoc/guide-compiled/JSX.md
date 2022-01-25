@@ -66,3 +66,13 @@ const title = response.potentiallyMaliciousInput;
 // This is safe:
 const element = <h1>{title}</h1>;
 ```
+
+-  Babel compiles JSX down to React.createElement() calls.
+
+```
+const element = React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello, world!'
+);
+```
