@@ -51,3 +51,9 @@ function getGreeting(user) {
   return <h1>Hello, Stranger.</h1>;
 }
 ```
+
+### Specifying Attributes with JSX
+
+```
+const element = <img src={user.avatarUrl}></img>;
+```
