@@ -4,6 +4,8 @@ import './assets/css/index.css';
 import Global from './global';
 import reportWebVitals from './reportWebVitals';
 
+import GlobalSnippets from './globalsnp';
+<GlobalSnippets/>
 
 ReactDOM.render(
   <React.StrictMode>

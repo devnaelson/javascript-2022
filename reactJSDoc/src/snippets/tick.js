@@ -7,8 +7,8 @@ function tick() {
             <h2>It is {new Date().toLocaleTimeString()}.</h2>
         </div>
     );
-    ReactDOM.render(element, document.getElementById('root'));
+    ReactDOM.render(element, document.getElementById('snp-trick'));
 }
 
-setInterval(tick, 1000);
+setInterval(tick, 3000);
 export default tick;
