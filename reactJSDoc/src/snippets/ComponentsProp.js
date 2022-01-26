@@ -1,5 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 
 function Welcome(props) {
     return <h1>Hello, {props.name}</h1>;
@@ -15,9 +13,11 @@ function ComponentsPros() {
     );
 }
 
-ReactDOM.render(
+/* 
+    i will take it to index, make more sense.
+    ReactDOM.render(
     <ComponentsPros />,
     document.getElementById('snp-compprop')
-);
+); */
 
 export default ComponentsPros;

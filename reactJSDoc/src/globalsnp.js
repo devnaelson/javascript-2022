@@ -1,14 +1,20 @@
 
 //snippets
 import Tick from './snippets/tick';
-import ComponentsAndProps from './snippets/ComponentsProp';
 
+/* take it to index loading */
+import ComponentsPros from './snippets/ComponentsProp';
+
+function funcComponentsPros() {
+  return (
+    <ComponentsPros />
+  );
+}
 
 function GlobalSnippets() {
   return (
-    <ComponentsAndProps/>,
     <Tick />
   );
 }
 
-export default GlobalSnippets;
+export { GlobalSnippets,funcComponentsPros };
