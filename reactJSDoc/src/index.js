@@ -4,6 +4,15 @@ import './assets/css/index.css';
 import Global from './global';
 import reportWebVitals from './reportWebVitals';
 
+import * as sn from './globalsnp';
+<sn.GlobalSnippets />
+let element = <sn.funcComponentsPros />;
+
+/* bring to on here in main why turn more simple of use and logic sense*/
+ReactDOM.render(
+  element,
+  document.getElementById('snp-compprop')
+);
 
 ReactDOM.render(
   <React.StrictMode>
