@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import Global from './global';
 import reportWebVitals from './reportWebVitals';
+import Message from './snippets/states';
+import Message2 from './snippets/statesAndProps';//with props
 
 import * as sn from './globalsnp';
 <sn.GlobalSnippets />
 let element = <sn.funcComponentsPros />;
+
 
 /* bring to on here in main why turn more simple of use and logic sense*/
 ReactDOM.render(
@@ -16,6 +19,8 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
+    <Message/>,
+    <Message2  name="naelson"/>
     <Global />
   </React.StrictMode>,
   document.getElementById('root')

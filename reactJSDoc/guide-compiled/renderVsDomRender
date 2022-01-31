@@ -1,0 +1,13 @@
+- https://stackoverflow.com/questions/48389208/reactdom-render-vs-react-component-render-difference#:~:text=render%20renders%20your%20components%20to,that%20make%20up%20the%20component.
+
+- Component.render()
+
+```
+A component's render() method takes no arguments and returns the corresponding React element tree for that component. Component.render() gets called when the props or the state of a component change and shouldComponentUpdate() returns true. Based on the new props and state a new element React element tree is returned from the Component.render() method.
+```
+
+- ReactDOM.render()
+
+```
+The ReactDOM.render(element, container) method is a top-level API that takes a React element root of an element tree and a container DOM element as arguments. It then turns that passed React element into a corresponding DOM element (tree) and then mounts that element as a child in the container DOM element.
+```
