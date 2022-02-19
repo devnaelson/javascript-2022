@@ -5,7 +5,8 @@ import Global from './global';
 import reportWebVitals from './reportWebVitals';
 import Message from './snippets/states';
 import Message2 from './snippets/statesAndProps';//with props
-import Toggle from './snippets/Toggle';//with props
+import Toggle from './snippets/Toggle';
+import WPages from './snippets/Webpages';
 
 import * as sn from './globalsnp';
 <sn.GlobalSnippets />
@@ -20,6 +21,7 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
+    <WPages/>,
     <Message/>,
     <Message2  name="naelson"/>,
     <Toggle/>,
