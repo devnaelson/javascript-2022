@@ -1,7 +1,21 @@
+import {
+    Form,
+    FormGroup,
+    Label,
+    Input,
+    Button
+} from 'reactstrap';
+import { Link } from "react-router-dom";
+
 export default function EditUser() {
     return (
-        <main style={{ padding: "1rem 0" }}>
-            <h2>EditUser</h2>
-        </main>
+        <Form>
+            <FormGroup>
+                <Label>Name</Label>
+                <Input type='text' placeholder='Enter'></Input>
+            </FormGroup>
+            <Button type='submit'>Submit</Button>
+            <Link to="/" className='btn btn-danger ml-2'>Cancel</Link>
+        </Form>
     );
 }
