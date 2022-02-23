@@ -1,7 +1,7 @@
-export default function EditUser() {
+export default function Contact() {
     return (
         <main style={{ padding: "1rem 0" }}>
-            <h2>EditUser</h2>
+            <h2>Contact</h2>
         </main>
     );
 }

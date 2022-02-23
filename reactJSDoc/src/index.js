@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './assets/css/index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 
+import Contact from './components/Contact';
+import AddUser from './components/AddUser';
+import EditUser from './components/EditUser';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 ReactDOM.render(
-  <Router>
-    <Switch>
-      <App />
-    </Switch>
-  </Router>
-  ,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="Contact" element={<Contact />} />
+      <Route path="AddUser" element={<AddUser />} />
+      <Route path="EditUser" element={<EditUser />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
