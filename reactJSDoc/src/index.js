@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import AddUser from './components/AddUser';
 import EditUser from './components/EditUser';
 
+import Invoices from './components/Invoices';
+
 import {
   BrowserRouter,
   Routes,
@@ -20,6 +22,9 @@ ReactDOM.render(
       <Route path="Contact" element={<Contact />} />
       <Route path="AddUser" element={<AddUser />} />
       <Route path="EditUser" element={<EditUser />} />
+      <Route path="invoices" element={<Invoices />}>
+        <Route path=":id" element={<Invoices />} />
+      </Route>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

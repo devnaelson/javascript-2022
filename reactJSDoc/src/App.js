@@ -15,6 +15,7 @@ export default function App() {
                 <Link to="/Contact">Contact</Link> |{" "}
                 <Link to="/AddUser">Add USer</Link>
                 <Link to="/EditUser">Edit USer</Link>
+                <Link to="/invoices/1999">Params</Link>
             </nav>
         </div>
     );
