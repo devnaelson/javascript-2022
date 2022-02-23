@@ -1,5 +1,6 @@
 import React from 'react';
 import './assets/css/index.css';
+import './assets/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 export default function App() {
@@ -12,9 +13,9 @@ export default function App() {
                     paddingBottom: "1rem",
                 }}
             >
-                <Link to="/Contact">Contact</Link> |{" "}
-                <Link to="/AddUser">Add USer</Link>
-                <Link to="/EditUser">Edit USer</Link>
+                <Link to="/Contact">Contact</Link> | {" "}
+                <Link to="/AddUser">Add USer</Link> | {" "}
+                <Link to="/EditUser">Edit USer</Link> | {" "}
                 <Link to="/invoices/1999">Params</Link>
             </nav>
         </div>
