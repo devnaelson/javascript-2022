@@ -1,29 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/css/index.css';
-import Global from './global';
 import reportWebVitals from './reportWebVitals';
-import Message from './snippets/states';
-import Message2 from './snippets/statesAndProps';//with props
-import Toggle from './snippets/Toggle';
-
-import * as sn from './globalsnp';
-<sn.GlobalSnippets />
-let element = <sn.funcComponentsPros />;
-
-
-/* bring to on here in main why turn more simple of use and logic sense*/
-ReactDOM.render(
-  element,
-  document.getElementById('snp-compprop')
-);
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Message/>,
-    <Message2  name="naelson"/>,
-    <Toggle/>,
-    <Global />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
